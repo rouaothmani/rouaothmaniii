@@ -5,5 +5,11 @@ import { Injectable } from '@angular/core';
 })
 export class ContactService {
 
-  constructor() { }
+  constructor(private readonly contactService:ContactService) { }
+
+  sendMail():void{
+       this.contactService.sendMail();
+
+       
+  }
 }
