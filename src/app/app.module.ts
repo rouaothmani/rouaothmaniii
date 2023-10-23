@@ -16,6 +16,8 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { CertComponent } from './cert/cert.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 @NgModule({
@@ -29,7 +31,8 @@ import { NgxPaginationModule } from 'ngx-pagination';
     ProjectsComponent,
     ContactComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CertComponent
   ],
     
   imports: [
@@ -41,6 +44,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
     FormsModule,
     CommonModule,
     NgxPaginationModule,
+    CarouselModule
     
   ],
   providers: [],
