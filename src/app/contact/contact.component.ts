@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
  
-  model: any = {};
+  model: any = {}; 
   nom: string = '';
   email: string = '';
   subject: string = '';
