@@ -17,7 +17,7 @@ export class SkillsService {
     {
       'id': '2',
       'skill': 'NEST JS',
-      'progress': '30%'
+      'progress': '20%'
     },
     {
       'id': '3',

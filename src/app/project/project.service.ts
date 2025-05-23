@@ -24,6 +24,13 @@ export class ProjectService {
       githurl: 'https://github.com/rouaothmani/rouaothmani',
       imgUrl: 'assets/img/portfolio.png',
       tech: 'Angular, Bootstrap'
+    },
+    {
+      id: 2,
+      title: 'ISIMedenine',
+      githurl: 'https://github.com/rouaothmani/projet',
+      imgUrl: 'assets/img/isimed.png',
+      tech: 'Angular, Bootstrap'
     }
 
   ]
