@@ -31,6 +31,13 @@ export class ProjectService {
       githurl: 'https://github.com/rouaothmani/projet',
       imgUrl: 'assets/img/isimed.png',
       tech: 'Angular, Bootstrap'
+    },
+    {
+      id: 3,
+      title: 'To-Do List',
+      githurl: 'https://github.com/rouaothmani/to-do-list',
+      imgUrl: 'assets/img/todo.png',
+      tech: 'PHP'
     }
 
   ]
